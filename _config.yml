@@ -25,6 +25,4 @@ markdown: kramdown
 footer_heading: This is the footer heading
 footer_contact: Find me here
 
-gems:
-  - jekyll-paginate
 
