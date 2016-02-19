@@ -16,6 +16,7 @@ url: "https://enthalpychange.github.io" # the base hostname & protocol for your 
 images: "https://raw.githubusercontent.com/enthalpychange/enthalpychange.github.io/master/images"
 twitter_username: twitterusername
 github_username:  githubusername
+paginate: 5
 
 # Build settings
 markdown: kramdown
@@ -23,3 +24,7 @@ markdown: kramdown
 # Custom settings
 footer_heading: This is the footer heading
 footer_contact: Find me here
+
+gems:
+  - jekyll-paginate
+
