@@ -13,6 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Site hosted on GitHub Pages.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://enthalpychange.github.io" # the base hostname & protocol for your site
+images: "https://raw.githubusercontent.com/enthalpychange/enthalpychange.github.io/master/images"
 twitter_username: twitterusername
 github_username:  githubusername
 

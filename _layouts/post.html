@@ -12,4 +12,14 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="tags">
+    Tags:
+    {% for tag in page.tags %}
+    <a href="/tags/#{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+    {% if page.tags.size == 0 %}
+    None
+    {% endif %}
+  </div>
+
 </article>
