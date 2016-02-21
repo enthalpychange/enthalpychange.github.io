@@ -7,22 +7,14 @@
 
 # Site settings
 title: ΔH
-#email: mygithubusername@users.noreply.github.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is an awesome description for my new site.
-  Site hosted on GitHub Pages.
+  A blog about interesting stuff in IT
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://enthalpychange.github.io" # the base hostname & protocol for your site
 images: "https://raw.githubusercontent.com/enthalpychange/enthalpychange.github.io/master/images"
-twitter_username: twitterusername
-github_username:  githubusername
+twitter_username: ""
+github_username:  ""
 paginate: 5
 
 # Build settings
 markdown: kramdown
-
-# Custom settings
-footer_heading: This is the footer heading
-footer_contact: Find me here
-
-
