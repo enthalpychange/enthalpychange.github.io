@@ -14,10 +14,14 @@ pages have properties like title and url
 https://jekyllrb.com/docs/variables/
 {% endcomment %}
 
-
 {% assign sorted_tags = site.tags | sort %}
+<ul>
 {% for tag in sorted_tags %}
-<h4 id="{{ tag[0] }}"><b>{{ tag[0] }}</b></h4>
+<li><a href="/tags/#{{ tag[0] }}">{{ tag[0] }}</a>: {{ tag[1].size }}</li>
+{% endfor %}
+</ul>
+{% for tag in sorted_tags %}
+<div id="{{ tag[0] }}"><h1 class="post-title">{{ tag[0] }}</h1></div>
 <ul>
 {% for page in tag[1] %}
 <li><a href="{{ page.url }}">{{ page.title }}</a></li>
