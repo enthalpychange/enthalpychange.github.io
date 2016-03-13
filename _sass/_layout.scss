@@ -213,10 +213,17 @@
     }
 }
 
+.path {
+    font-family: "Consolas", "Courier", "Courier New";
+    generic-family: "monospace";
+}
+
 .post-heading1 {
-    font-size: 42px;
+    font-size: 26px;
     letter-spacing: -1px;
     line-height: 1;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -227,6 +234,8 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -237,6 +246,8 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
 
     @include media-query($on-laptop) {
         font-size: 36px;
