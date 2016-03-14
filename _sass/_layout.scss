@@ -204,12 +204,15 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 36px;
+    font-family: Georgia;
+    generic-family: sans-serif;
+    font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 30px;
     }
 }
 
@@ -222,7 +225,7 @@
     margin-bottom: $spacing-unit;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 20px;
     }
 }
 
