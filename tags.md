@@ -21,7 +21,7 @@ https://jekyllrb.com/docs/variables/
 {% endfor %}
 </ul>
 {% for tag in sorted_tags %}
-<div id="{{ tag[0] }}"><h1 class="post-title">{{ tag[0] }}</h1></div>
+<div id="{{ tag[0] }}"><span class="post-heading1">{{ tag[0] }}</span></div>
 <ul>
 {% for page in tag[1] %}
 <li><a href="{{ page.url }}">{{ page.title }}</a></li>
