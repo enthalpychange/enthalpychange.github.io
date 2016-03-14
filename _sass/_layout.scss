@@ -213,11 +213,6 @@
     }
 }
 
-.path {
-    font-family: "Consolas", "Courier", "Courier New";
-    generic-family: "monospace";
-    display:inline;
-}
 
 .post-heading1 {
     font-size: 26px;
@@ -281,4 +276,9 @@
             font-size: 18px;
         }
     }
+}
+
+.path {
+    font-family: "Consolas", "Courier", "Courier New";
+    generic-family: "monospace";
 }
