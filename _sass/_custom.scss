@@ -9,16 +9,8 @@ body {
   margin-bottom: $footer-height;
 }
 
-.site-content {
-  width: 90%
-}
-
-
-
-
-
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: $footer-height;
