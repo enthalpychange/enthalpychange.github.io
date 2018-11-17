@@ -1,0 +1,43 @@
+// Variables
+$footer-height: 60px;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: $footer-height;
+}
+
+.site-content {
+  width: 90%
+}
+
+
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height;
+  line-height: $footer-height; /* Vertically center the text */
+}
+
+.footer .footer-content {
+  text-align: center;
+}
+
+.footer .footer-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-icon {
+  > svg {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      vertical-align: middle;
+  }
+}
