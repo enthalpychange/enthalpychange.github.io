@@ -104,10 +104,13 @@
     border-top: 0px solid $grey-color-light;
     padding: $spacing-unit 0;
     background-color: $hf-bg-color;
-    position: relative;
     a {
       color: $hf-link-color;
     }
+    //
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-heading {
@@ -176,6 +179,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    position: relative
 }
 
 .page-heading {
